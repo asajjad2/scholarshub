@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/asajjad2/scholarshub.git/static/css/main.5a1ad89c.css",
+    "main.js": "/asajjad2/scholarshub.git/static/js/main.c689d987.js",
+    "static/media/logo.svg": "/asajjad2/scholarshub.git/static/media/logo.7b61c4cfeb304624b2c17116e143e05a.svg",
+    "index.html": "/asajjad2/scholarshub.git/index.html",
+    "main.5a1ad89c.css.map": "/asajjad2/scholarshub.git/static/css/main.5a1ad89c.css.map",
+    "main.c689d987.js.map": "/asajjad2/scholarshub.git/static/js/main.c689d987.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1ad89c.css",
+    "static/js/main.c689d987.js"
+  ]
+}
