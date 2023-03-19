@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#xp-card-btns:hover{
+  @apply flex flex-col gap-2 items-center justify-end;
+}
+
+.stepper-default{
+  @apply bg-gray-100 text-blue-gray-600;  
+}
+
+.stepper-default > span, .stepper-current > span{
+  @apply bg-blue-gray-400 text-white;
+}
+
+.stepper-current{
+  @apply bg-blue-gray-600 text-white;
+}
+
+.stepper-completed{
+  @apply bg-success-400 text-white;
+}
+
+.stepper-completed > span{
+  @apply bg-success-600 text-white;
+}
+
+.btn-lg{
+  @apply h-12 px-6 py-3 text-text-md font-medium; 
+}
+
+.btn-md{
+  @apply h-10 px-5 py-2 text-text-md font-medium;
+}
+
+.btn-sm{
+  @apply h-9 px-4 py-2 text-text-sm font-medium;
+}
+
+.btn-primary{
+  @apply bg-blue-gray-600 text-white;
+}
+
+.btn-secondary{
+  @apply bg-gray-50 text-gray-700;
+}
+
+.btn-tertiary{
+  @apply text-gray-700;
+}
+
+.input-default{
+  @apply bg-white text-gray-600 placeholder-gray-400;
+}
+
+.input-disabled{
+  @apply bg-gray-100 text-gray-400 placeholder-gray-400;
+}
+
+.badge-default{
+  @apply bg-gray-50 border-blue-gray-200 text-blue-gray-700;
+}
+
+.badge-success{
+  @apply bg-success-50 border-success-200 text-success-700;
+}
+
+.badge-error{
+  @apply bg-error-50 border-error-200 text-error-700;
+}
+
+.badge-warning{
+  @apply bg-warning-50 border-warning-200 text-warning-700;
+}
+
+.active{
+  @apply bg-white text-blue-light-500 border-b-2 border-blue-light-500;
+}
